@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c5c8d6;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pognm.controllers.AddAreaController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #8b8e9e;">
+         <children>
+            <Label alignment="CENTER" layoutX="211.0" layoutY="25.0" prefHeight="50.0" prefWidth="178.0" text="Add Area Filed">
+               <font>
+                  <Font name="Bernard MT Condensed" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="addAreaName" layoutX="200.0" layoutY="155.0" prefHeight="25.0" prefWidth="200.0" promptText="Наименование помещения" />
+      <TextArea fx:id="addAreaNote" layoutX="200.0" layoutY="246.0" prefHeight="50.0" prefWidth="200.0" promptText="Примечание" />
+      <Label alignment="CENTER" layoutX="238.0" layoutY="110.0" prefHeight="39.0" prefWidth="124.0" text="Area Name" textAlignment="CENTER">
+         <font>
+            <Font name="Bernard MT Condensed" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="238.0" layoutY="202.0" prefHeight="39.0" prefWidth="124.0" text="Note" textAlignment="CENTER">
+         <font>
+            <Font name="Bernard MT Condensed" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="okBtnAddArea" layoutX="200.0" layoutY="332.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #8b8e9e;" text="OK">
+         <font>
+            <Font name="Bernard MT Condensed" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelBtnAddArea" layoutX="324.0" layoutY="332.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #8b8e9e;" text="Cancel">
+         <font>
+            <Font name="Bernard MT Condensed" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
